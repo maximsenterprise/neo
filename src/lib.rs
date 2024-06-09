@@ -4,10 +4,10 @@ use std::fs::{self, File};
 ///Represents the configuration wrote in the Neo file
 #[derive(Debug)]
 pub struct NeoConfig {
-    name: String,
-    language: String,
-    version: String,
-    files_to_compile: Vec<String>,
+    pub name: String,
+    pub language: String,
+    pub version: String,
+    pub files_to_compile: Vec<String>,
 }
 
 ///Process the Neo file and returns a NeoConfig struct

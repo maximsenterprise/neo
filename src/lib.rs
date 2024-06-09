@@ -3,7 +3,7 @@ use std::fs::{self, File};
 
 ///Represents the configuration wrote in the Neo file
 #[derive(Debug)]
-struct NeoConfig {
+pub struct NeoConfig {
     name: String,
     language: String,
     version: String,
